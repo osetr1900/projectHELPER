@@ -1,0 +1,166 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(51,142,8);
+    background: linear-gradient(90deg, rgba(51,142,8,1) 14%, rgba(70,185,19,1) 79%);
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+}
+
+
+body 
+{
+    background-color: green;
+}
+
+header
+{
+    z-index: 3;
+    color: whitesmoke;
+    position:  sticky;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Times New Roman', sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links
+{
+    color: whitesmoke;
+}
+
+.menu
+{
+    font-size: 18px;    
+}
+
+.menu li a{
+    padding: 5px 15px;
+    color: cornsilk;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(129, 129, 206);
+}
+
+.menu li a:hover{
+    transform: scale(1.2);
+    text-shadow: 1px 1px 1px black;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.li
+{
+    float: left;
+    list-style: none;
+}
+
+
+.namesite
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style:normal;
+    font-weight: bold;
+}
+
+.main
+{
+    margin: 0.5% 7%;
+    padding: 20px 2%;
+    background-color: #1a1a1d;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    color: whitesmoke;
+    font-size: clamp(14px, 3vw, 21px);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-text-page
+{
+    padding: 20%;
+    width: 700px;
+    display: block;
+}
+
+.main-text
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: bold;
+}
+
+.second-text
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(20px,2vw,25px);
+}
+
+.advansed
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 86%;
+    justify-content: space-around;
+    background-color: rgb(43, 38, 38);
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.advansed-item
+{
+    width: 120px;
+    height: 80px;
+    text-align: center;
+}
+
+.advfirst
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.advsecond
+{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info
+{
+    
+    background-color: azure;
+    width: 86%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
