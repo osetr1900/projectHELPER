@@ -4,71 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HELPER</title>
-    <link rel="stylesheet" href="stylemain.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="RVa7HlXWsDU.jpg">
-    <script src="func.js"></script>
 </head>
-<body>
+<body class="main">
     <header>
-        <nav class="navbar"> 
-            <div class="logo">
-                <img src="RVa7HlXWsDU.jpg" width="70" height="60">
-            </div>
-            <div class="namesite">
-                HELPER
-            </div>
-            <ul class="nav-links">
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="index.html">Главная</a>
-                        </li>
-                        <li >
-                            <a href="account.html">Войти в аккаунт</a>
-                        </li>
-                    </ul>
-                </div>
-            </ul>
+        <div class="company-logo">
+            <img src="RVa7HlXWsDU.jpg" width="60" height="60">
+        </div>
+        <nav class="navbar">
+          <ul class="nav-items">
+            <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Вход/Регистрация</a></li>
+          </ul>
         </nav>
-    </header>
-    <div class="main">
-        <div class="main-text-page">
-            <span class="main-text">Если возникли трудности вы попали куда надо</span>
-            <p class="second-text">Вместе с нами вы достигнете свои самые велики цели</p>
-            <div class="buttom">
-                <a href="katalog.html">Перейти в каталог</a>
-            </div>
+        <div class="menu-toggle">
+          <i class="bx bx-menu"></i>
+          <i class="bx bx-x"></i>
         </div>
-    </div>
-    <div class="advansed">
-        <div class="advansed-item">
-            <p class="advfirst">10+</p>
-            <p class="advsecond">Учеников</p>
-        </div>
-        <div class="advansed-item">
-            <p class="advfirst">10 минут</p>
-            <p class="advsecond">И вам напишут</p>
-        </div>
-        <div class="advansed-item">
-            <p class="advfirst">Лучшие</p>
-            <p class="advsecond">Преподаватели</p>
-        </div>
-    </div>
-    <footer>
-        <div class="contact-form">
-            <h2>Свяжитесь с нами!</h2>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="inname" id="name" name="name" placeholder="Имя">
-                </div>
-                <div class="col">
-                    <input type="text" class="inname" id="email" name="E-MAIL" placeholder="E-MAIL"> 
-                </div>
-            </div>
-            <button type="submit" class="form-control">Отправить</button>
-        </div>
-        
-    </footer>
+      </header>
+
+      <main>
+        <div class="gradient-background">
+            <div class="d-flex flex-column justify-content-center w-100 h-100">
+               <div class="d-flex flex-column justify-content-center align-items-center">
+                 <div>
+                    <a href="about.html" class="button-main" aria-current="page"><i class="fas fa-file-download me-2"></i> О нас </a>
+                    <a href="katalog.html" class="button">Каталог<i class="fas fa-expand ms-2"></i></a>
+                 </div>
+                 <h1 class="main-text">Helper - навигатор для тех, кто не боится развиваться</h1>
+               </div>
+             </div>
+           </div>
+      </main>
 </body>
 </html>
-
