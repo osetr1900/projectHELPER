@@ -60,3 +60,33 @@ body {
     text-align: center;
     font-size: 25px;
 }
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .video-container .video {
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  
+  .video-container .video iframe {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .video-container .video iframe:hover {
+    transition: .2s linear;
+    transform: scale(1.3);
+  }
