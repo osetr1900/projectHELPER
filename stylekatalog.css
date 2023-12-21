@@ -11,9 +11,11 @@ header {
 .nav-items {
     display: flex;
     margin-right: 40%;
+    font-size: 30px;
 }
 .nav-item {
     margin: 0 2rem;
+    color: rgb(24, 48, 39);
 }
 
 .a{
@@ -52,13 +54,13 @@ body {
 }
 
 .nav-link {
-    color: rgb(247, 245, 245);
+    color: rgb(24, 48, 39);
     text-decoration: none;
     font-size: 1.1rem;
     letter-spacing: 0.05rem;
     position: relative;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
