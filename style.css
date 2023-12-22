@@ -10,20 +10,14 @@ header {
 
 .nav-items {
     display: flex;
-    margin-right: 40%;
 }
 .nav-item {
-    margin: 0 2rem;
+    margin-right: 50%;
 }
 
 .a{
     text-decoration: none;
-}
-
-.li
-{
-    text-decoration: none;
-    list-style: none;
+    margin-right: 40%;
 }
 
 .nav-link:hover::before {
@@ -43,6 +37,10 @@ header {
     transform-origin: bottom right;
     transition: transform 150ms;
 }
+nav
+{
+    margin-left: 80%;
+}
 
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -57,7 +55,7 @@ body {
     font-size: 1.1rem;
     letter-spacing: 0.05rem;
     position: relative;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
 }
 
